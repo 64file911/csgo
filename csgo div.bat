@@ -41,5 +41,4 @@ powershell -c "Stop-Process -Name wmiprvse -Force -ErrorAction SilentlyContinue;
 timeout /t 1 /nobreak >nul
 
 echo [✓] All done!
-pause
-exit /B
+exit
